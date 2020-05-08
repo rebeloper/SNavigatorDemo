@@ -11,7 +11,6 @@
 		C9EEE2ED246532F60033E224 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE2EC246532F60033E224 /* SceneDelegate.swift */; };
 		C9EEE2F4246532F90033E224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EEE2F3246532F90033E224 /* Assets.xcassets */; };
 		C9EEE2F7246532F90033E224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EEE2F5246532F90033E224 /* LaunchScreen.storyboard */; };
-		C9EEE300246533AD0033E224 /* SparkUI in Frameworks */ = {isa = PBXBuildFile; productRef = C9EEE2FF246533AD0033E224 /* SparkUI */; };
 		C9EEE30A246533CB0033E224 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE302246533CA0033E224 /* MainTabBarController.swift */; };
 		C9EEE30B246533CB0033E224 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE303246533CA0033E224 /* SignUpViewController.swift */; };
 		C9EEE30C246533CB0033E224 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE304246533CA0033E224 /* HomeViewController.swift */; };
@@ -24,6 +23,7 @@
 		C9EEE316246533E30033E224 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE314246533E30033E224 /* HomeNavigator.swift */; };
 		C9EEE318246534160033E224 /* FeedNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE317246534160033E224 /* FeedNavigator.swift */; };
 		C9EEE31A2465345F0033E224 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE3192465345F0033E224 /* FeedViewController.swift */; };
+		C9EEE31D24653D370033E224 /* SparkUI in Frameworks */ = {isa = PBXBuildFile; productRef = C9EEE31C24653D370033E224 /* SparkUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9EEE300246533AD0033E224 /* SparkUI in Frameworks */,
+				C9EEE31D24653D370033E224 /* SparkUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +132,7 @@
 			);
 			name = SNavigatorDemo;
 			packageProductDependencies = (
-				C9EEE2FF246533AD0033E224 /* SparkUI */,
+				C9EEE31C24653D370033E224 /* SparkUI */,
 			);
 			productName = SNavigatorDemo;
 			productReference = C9EEE2E7246532F60033E224 /* SNavigatorDemo.app */;
@@ -163,7 +163,7 @@
 			);
 			mainGroup = C9EEE2DE246532F60033E224;
 			packageReferences = (
-				C9EEE2FE246533AD0033E224 /* XCRemoteSwiftPackageReference "SparkUI" */,
+				C9EEE31B24653D370033E224 /* XCRemoteSwiftPackageReference "SparkUI" */,
 			);
 			productRefGroup = C9EEE2E8246532F60033E224 /* Products */;
 			projectDirPath = "";
@@ -396,20 +396,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C9EEE2FE246533AD0033E224 /* XCRemoteSwiftPackageReference "SparkUI" */ = {
+		C9EEE31B24653D370033E224 /* XCRemoteSwiftPackageReference "SparkUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rebeloper/SparkUI.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.6.62;
+				minimumVersion = 0.6.66;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C9EEE2FF246533AD0033E224 /* SparkUI */ = {
+		C9EEE31C24653D370033E224 /* SparkUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C9EEE2FE246533AD0033E224 /* XCRemoteSwiftPackageReference "SparkUI" */;
+			package = C9EEE31B24653D370033E224 /* XCRemoteSwiftPackageReference "SparkUI" */;
 			productName = SparkUI;
 		};
 /* End XCSwiftPackageProductDependency section */

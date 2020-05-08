@@ -15,8 +15,7 @@ class FeedNavigator: Navigator {
         super.start()
         
         let controller = FeedViewController()
-        controller.tabBarItem = UITabBarItem(title: "Feed", image: UIImage(systemName: "bubble.left.and.bubble.right.fill"), tag: 0)
-        controller.title = "Feed"
+        controller.setTabBarItem(selectedImageSystemImageName: "bubble.left.and.bubble.right.fill", unselectedImageSystemImageName: "bubble.left.and.bubble.right", selectedColor: .systemBlue, unSelectedColor: .systemGray3, title: "Feed")
         controller.navigator = self
         navigation.display(controller)
     }

@@ -20,8 +20,11 @@ class MainTabBarController: UITabBarController {
         feedNavigator.start()
         homeNavigator.start()
         
-        viewControllers = [feedNavigator.navigation, homeNavigator.navigation]
+        viewControllers = [
+            feedNavigator.navigation,
+            homeNavigator.navigation
+        ]
         
-        selectedIndex = 1
+        selectedIndex = TabBarTag.one.rawValue
     }
 }

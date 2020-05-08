@@ -15,8 +15,7 @@ class HomeNavigator: Navigator {
         super.start()
         
         let controller = HomeViewController()
-        controller.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house.fill"), tag: 1)
-        controller.title = "Home"
+        controller.setTabBarItem(selectedImageSystemImageName: "house.fill", unselectedImageSystemImageName: "house", selectedColor: .systemBlue, unSelectedColor: .systemGray3, title: "Home")
         controller.navigator = self
         navigation.display(controller)
         
