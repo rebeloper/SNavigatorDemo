@@ -1,20 +1,19 @@
 //
-//  ViewController.swift
+//  FeedViewController.swift
 //  SNavigatorDemo
 //
 //  Created by Alex Nagy on 08/05/2020.
 //  Copyright © 2020 Alex Nagy. All rights reserved.
 //
 
-import UIKit
+import Foundation
+import SparkUI
 
-class ViewController: UIViewController {
-
+class FeedViewController: SViewController {
+    
+    weak var navigator: FeedNavigator?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-

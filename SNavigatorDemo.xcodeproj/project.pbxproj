@@ -3,27 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C9EEE2EB246532F60033E224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE2EA246532F60033E224 /* AppDelegate.swift */; };
 		C9EEE2ED246532F60033E224 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE2EC246532F60033E224 /* SceneDelegate.swift */; };
-		C9EEE2EF246532F60033E224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE2EE246532F60033E224 /* ViewController.swift */; };
-		C9EEE2F2246532F60033E224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EEE2F0246532F60033E224 /* Main.storyboard */; };
 		C9EEE2F4246532F90033E224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EEE2F3246532F90033E224 /* Assets.xcassets */; };
 		C9EEE2F7246532F90033E224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EEE2F5246532F90033E224 /* LaunchScreen.storyboard */; };
+		C9EEE300246533AD0033E224 /* SparkUI in Frameworks */ = {isa = PBXBuildFile; productRef = C9EEE2FF246533AD0033E224 /* SparkUI */; };
+		C9EEE30A246533CB0033E224 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE302246533CA0033E224 /* MainTabBarController.swift */; };
+		C9EEE30B246533CB0033E224 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE303246533CA0033E224 /* SignUpViewController.swift */; };
+		C9EEE30C246533CB0033E224 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE304246533CA0033E224 /* HomeViewController.swift */; };
+		C9EEE30D246533CB0033E224 /* NewSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE305246533CA0033E224 /* NewSheetViewController.swift */; };
+		C9EEE30E246533CB0033E224 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE306246533CA0033E224 /* ProfileViewController.swift */; };
+		C9EEE30F246533CB0033E224 /* ClassicSheetSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE307246533CA0033E224 /* ClassicSheetSecondViewController.swift */; };
+		C9EEE310246533CB0033E224 /* ClassicSheetFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE308246533CA0033E224 /* ClassicSheetFirstViewController.swift */; };
+		C9EEE311246533CB0033E224 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE309246533CB0033E224 /* AuthViewController.swift */; };
+		C9EEE315246533E30033E224 /* AuthNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE313246533E30033E224 /* AuthNavigator.swift */; };
+		C9EEE316246533E30033E224 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE314246533E30033E224 /* HomeNavigator.swift */; };
+		C9EEE318246534160033E224 /* FeedNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE317246534160033E224 /* FeedNavigator.swift */; };
+		C9EEE31A2465345F0033E224 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE3192465345F0033E224 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9EEE2E7246532F60033E224 /* SNavigatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNavigatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9EEE2EA246532F60033E224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9EEE2EC246532F60033E224 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9EEE2EE246532F60033E224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9EEE2F1246532F60033E224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9EEE2F3246532F90033E224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9EEE2F6246532F90033E224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9EEE2F8246532F90033E224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9EEE302246533CA0033E224 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		C9EEE303246533CA0033E224 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C9EEE304246533CA0033E224 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C9EEE305246533CA0033E224 /* NewSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSheetViewController.swift; sourceTree = "<group>"; };
+		C9EEE306246533CA0033E224 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C9EEE307246533CA0033E224 /* ClassicSheetSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicSheetSecondViewController.swift; sourceTree = "<group>"; };
+		C9EEE308246533CA0033E224 /* ClassicSheetFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicSheetFirstViewController.swift; sourceTree = "<group>"; };
+		C9EEE309246533CB0033E224 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		C9EEE313246533E30033E224 /* AuthNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthNavigator.swift; sourceTree = "<group>"; };
+		C9EEE314246533E30033E224 /* HomeNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigator.swift; sourceTree = "<group>"; };
+		C9EEE317246534160033E224 /* FeedNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedNavigator.swift; sourceTree = "<group>"; };
+		C9EEE3192465345F0033E224 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9EEE300246533AD0033E224 /* SparkUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,41 @@
 		C9EEE2E9246532F60033E224 /* SNavigatorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C9EEE312246533CE0033E224 /* Navigators */,
+				C9EEE301246533B40033E224 /* ViewControllers */,
 				C9EEE2EA246532F60033E224 /* AppDelegate.swift */,
 				C9EEE2EC246532F60033E224 /* SceneDelegate.swift */,
-				C9EEE2EE246532F60033E224 /* ViewController.swift */,
-				C9EEE2F0246532F60033E224 /* Main.storyboard */,
 				C9EEE2F3246532F90033E224 /* Assets.xcassets */,
 				C9EEE2F5246532F90033E224 /* LaunchScreen.storyboard */,
 				C9EEE2F8246532F90033E224 /* Info.plist */,
 			);
 			path = SNavigatorDemo;
+			sourceTree = "<group>";
+		};
+		C9EEE301246533B40033E224 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9EEE309246533CB0033E224 /* AuthViewController.swift */,
+				C9EEE308246533CA0033E224 /* ClassicSheetFirstViewController.swift */,
+				C9EEE307246533CA0033E224 /* ClassicSheetSecondViewController.swift */,
+				C9EEE3192465345F0033E224 /* FeedViewController.swift */,
+				C9EEE304246533CA0033E224 /* HomeViewController.swift */,
+				C9EEE302246533CA0033E224 /* MainTabBarController.swift */,
+				C9EEE305246533CA0033E224 /* NewSheetViewController.swift */,
+				C9EEE306246533CA0033E224 /* ProfileViewController.swift */,
+				C9EEE303246533CA0033E224 /* SignUpViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C9EEE312246533CE0033E224 /* Navigators */ = {
+			isa = PBXGroup;
+			children = (
+				C9EEE313246533E30033E224 /* AuthNavigator.swift */,
+				C9EEE317246534160033E224 /* FeedNavigator.swift */,
+				C9EEE314246533E30033E224 /* HomeNavigator.swift */,
+			);
+			path = Navigators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +131,9 @@
 			dependencies = (
 			);
 			name = SNavigatorDemo;
+			packageProductDependencies = (
+				C9EEE2FF246533AD0033E224 /* SparkUI */,
+			);
 			productName = SNavigatorDemo;
 			productReference = C9EEE2E7246532F60033E224 /* SNavigatorDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +162,9 @@
 				Base,
 			);
 			mainGroup = C9EEE2DE246532F60033E224;
+			packageReferences = (
+				C9EEE2FE246533AD0033E224 /* XCRemoteSwiftPackageReference "SparkUI" */,
+			);
 			productRefGroup = C9EEE2E8246532F60033E224 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +181,6 @@
 			files = (
 				C9EEE2F7246532F90033E224 /* LaunchScreen.storyboard in Resources */,
 				C9EEE2F4246532F90033E224 /* Assets.xcassets in Resources */,
-				C9EEE2F2246532F60033E224 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +191,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9EEE2EF246532F60033E224 /* ViewController.swift in Sources */,
+				C9EEE311246533CB0033E224 /* AuthViewController.swift in Sources */,
 				C9EEE2EB246532F60033E224 /* AppDelegate.swift in Sources */,
+				C9EEE30F246533CB0033E224 /* ClassicSheetSecondViewController.swift in Sources */,
+				C9EEE316246533E30033E224 /* HomeNavigator.swift in Sources */,
+				C9EEE30A246533CB0033E224 /* MainTabBarController.swift in Sources */,
 				C9EEE2ED246532F60033E224 /* SceneDelegate.swift in Sources */,
+				C9EEE31A2465345F0033E224 /* FeedViewController.swift in Sources */,
+				C9EEE30B246533CB0033E224 /* SignUpViewController.swift in Sources */,
+				C9EEE30C246533CB0033E224 /* HomeViewController.swift in Sources */,
+				C9EEE318246534160033E224 /* FeedNavigator.swift in Sources */,
+				C9EEE30E246533CB0033E224 /* ProfileViewController.swift in Sources */,
+				C9EEE310246533CB0033E224 /* ClassicSheetFirstViewController.swift in Sources */,
+				C9EEE30D246533CB0033E224 /* NewSheetViewController.swift in Sources */,
+				C9EEE315246533E30033E224 /* AuthNavigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C9EEE2F0246532F60033E224 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9EEE2F1246532F60033E224 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9EEE2F5246532F90033E224 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,6 +394,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9EEE2FE246533AD0033E224 /* XCRemoteSwiftPackageReference "SparkUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rebeloper/SparkUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.62;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9EEE2FF246533AD0033E224 /* SparkUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9EEE2FE246533AD0033E224 /* XCRemoteSwiftPackageReference "SparkUI" */;
+			productName = SparkUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C9EEE2DF246532F60033E224 /* Project object */;
 }
