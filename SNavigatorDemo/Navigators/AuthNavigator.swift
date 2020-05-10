@@ -17,23 +17,12 @@ class AuthNavigator: Navigator {
     override func start() {
         super.start()
         
-        // display
         let controller = AuthViewController()
         controller.title = "Auth"
         controller.navigator = self
-        navigation.display(controller)
-        
-        // present in a sheet
-        Sheet.present(navigation)
-        
-        // observe dismiss of sheet
-        SheetState.isPresented.dropFirst(1).observeNext { (isPresented) in
-            if !isPresented {
-                self.parentNavigator?.didDismiss(self)
-                self.bag.dispose()
-            }
-        }.dispose(in: bag)
+        controller.setAsRoot(for: self, with: parentNavigator)
     }
+    
 }
 
 protocol SignUpNavigatable: AnyObject {
@@ -55,6 +44,6 @@ protocol NewSheetNavigatable: AnyObject {
 extension AuthNavigator: NewSheetNavigatable {
     func presentNewSheet() {
         let controller = NewSheetViewController()
-        Sheet.present(controller)
+        present(controller)
     }
 }

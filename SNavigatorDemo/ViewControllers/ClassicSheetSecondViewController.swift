@@ -37,7 +37,7 @@ class ClassicSheetSecondViewController: SViewController {
         
         button0.reactive.tap.observeNext { [weak self] in
             guard let self = self else { return }
-            self.navigator?.dismissClassicSheet()
+            self.navigator?.dismiss(animated: true)
         }.dispose(in: bag)
         
     }

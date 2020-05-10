@@ -47,7 +47,7 @@ extension HomeNavigator: ProfileNavigatable {
         let controller = ProfileViewController()
         controller.uid = uid
         controller.navigator = self
-        Sheet.present(controller)
+        present(controller)
     }
     
     func pushProfile(uid: String) {
@@ -76,23 +76,19 @@ extension HomeNavigator: AuthNavigatable {
 protocol ClassicSheetNavigatable: AnyObject {
     func presentFirstClassicSheet()
     func presentSecondClassicSheet()
-    func dismissClassicSheet()
 }
 
 extension HomeNavigator: ClassicSheetNavigatable {
     func presentFirstClassicSheet() {
         let controller = ClassicSheetFirstViewController()
         controller.navigator = self
-        self.presentSheet(controller)
+        present(controller, animated: true)
     }
     
     func presentSecondClassicSheet() {
         let controller = ClassicSheetSecondViewController()
         controller.navigator = self
-        self.presentSheet(controller)
+        present(controller, animated: true)
     }
     
-    func dismissClassicSheet() {
-        self.dismissSheet()
-    }
 }

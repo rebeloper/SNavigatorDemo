@@ -401,7 +401,7 @@
 			repositoryURL = "https://github.com/rebeloper/SparkUI.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.6.66;
+				minimumVersion = 0.6.75;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

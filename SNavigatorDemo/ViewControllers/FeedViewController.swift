@@ -15,7 +15,5 @@ class FeedViewController: SViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.title = "new feed"
-        self.tabBarItem.title = "new feed"
     }
 }

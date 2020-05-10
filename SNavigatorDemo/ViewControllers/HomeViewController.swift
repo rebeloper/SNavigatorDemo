@@ -19,7 +19,7 @@ class HomeViewController: SViewController {
     let button0 = UIButton().text("Present Profile").text(color: .systemBlue).bold()
     let button1 = UIButton().text("Push Profile").text(color: .systemBlue).bold()
     let button2 = UIButton().text("Present Auth Navigation").text(color: .systemBlue).bold()
-    let button3 = UIButton().text("Present First Classical Sheet").text(color: .systemBlue).bold()
+    let button3 = UIButton().text("Present First Classic Sheet").text(color: .systemBlue).bold()
     
     override func viewDidLoad() {
         super.viewDidLoad()
