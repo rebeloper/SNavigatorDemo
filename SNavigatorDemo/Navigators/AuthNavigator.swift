@@ -20,7 +20,7 @@ class AuthNavigator: Navigator {
         let controller = AuthViewController()
         controller.title = "Auth"
         controller.navigator = self
-        controller.setAsRoot(for: self, with: parentNavigator)
+        controller.setAsRoot(for: self, withParentNavigator: parentNavigator)
     }
     
 }
