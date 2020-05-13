@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C906C7B7246BB391001C902F /* ReadMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906C7B6246BB391001C902F /* ReadMe.swift */; };
 		C9EEE2EB246532F60033E224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE2EA246532F60033E224 /* AppDelegate.swift */; };
 		C9EEE2ED246532F60033E224 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EEE2EC246532F60033E224 /* SceneDelegate.swift */; };
 		C9EEE2F4246532F90033E224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EEE2F3246532F90033E224 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C906C7B6246BB391001C902F /* ReadMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMe.swift; sourceTree = "<group>"; };
 		C9EEE2E7246532F60033E224 /* SNavigatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNavigatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9EEE2EA246532F60033E224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9EEE2EC246532F60033E224 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				C9EEE2F3246532F90033E224 /* Assets.xcassets */,
 				C9EEE2F5246532F90033E224 /* LaunchScreen.storyboard */,
 				C9EEE2F8246532F90033E224 /* Info.plist */,
+				C906C7B6246BB391001C902F /* ReadMe.swift */,
 			);
 			path = SNavigatorDemo;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				C9EEE311246533CB0033E224 /* AuthViewController.swift in Sources */,
 				C9EEE2EB246532F60033E224 /* AppDelegate.swift in Sources */,
 				C9EEE30F246533CB0033E224 /* ClassicSheetSecondViewController.swift in Sources */,
+				C906C7B7246BB391001C902F /* ReadMe.swift in Sources */,
 				C9EEE316246533E30033E224 /* HomeNavigator.swift in Sources */,
 				C9EEE30A246533CB0033E224 /* MainTabBarController.swift in Sources */,
 				C9EEE2ED246532F60033E224 /* SceneDelegate.swift in Sources */,
