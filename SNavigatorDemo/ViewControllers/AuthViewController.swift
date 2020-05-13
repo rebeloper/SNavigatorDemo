@@ -41,17 +41,25 @@ class AuthViewController: SViewController {
         
         button0.reactive.tap.observeNext { [weak self] in
             guard let self = self else { return }
-            self.navigator?.pushSignUp()
+//            self.navigator?.pushSignUp()
+            
+            let controller = SignUpViewController()
+            self.navigationController?.push(controller, animated: true)
         }.dispose(in: bag)
         
         button1.reactive.tap.observeNext { [weak self] in
             guard let self = self else { return }
-            self.navigator?.dismiss()
+//            self.navigator?.dismiss()
+            
+            self.dismiss(animated: true)
         }.dispose(in: bag)
         
         button2.reactive.tap.observeNext { [weak self] in
             guard let self = self else { return }
-            self.navigator?.presentNewSheet()
+//            self.navigator?.presentNewSheet()
+            
+            let controller = NewSheetViewController()
+            self.present(controller, animated: true)
         }.dispose(in: bag)
         
     }

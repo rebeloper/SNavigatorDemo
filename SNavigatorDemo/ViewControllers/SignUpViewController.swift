@@ -39,12 +39,16 @@ class SignUpViewController: SViewController {
         
         button0.reactive.tap.observeNext { [weak self] in
             guard let self = self else { return }
-            self.navigator?.pop()
+//            self.navigator?.pop()
+            
+            self.navigationController?.popViewController(animated: true)
         }.dispose(in: bag)
         
         button1.reactive.tap.observeNext { [weak self] in
             guard let self = self else { return }
-            self.navigator?.dismiss()
+//            self.navigator?.dismiss()
+            
+            self.dismiss(animated: true)
         }.dispose(in: bag)
     }
 

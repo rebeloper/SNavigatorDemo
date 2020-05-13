@@ -42,22 +42,37 @@ class HomeViewController: SViewController {
         
         button0.reactive.tap.observeNext { [weak self] in
             guard let self = self else { return }
-            self.navigator?.presentProfile(uid: "123456")
+//            self.navigator?.presentProfile(uid: "123456")
+            
+            let controller = ProfileViewController()
+            controller.uid = "123456"
+            self.present(controller, animated: true)
         }.dispose(in: bag)
         
         button1.reactive.tap.observeNext { [weak self] in
             guard let self = self else { return }
-            self.navigator?.pushProfile(uid: "123456")
+//            self.navigator?.pushProfile(uid: "123456")
+            
+            let controller = ProfileViewController()
+            controller.uid = "123456"
+            self.navigationController?.push(controller, animated: true)
         }.dispose(in: bag)
         
         button2.reactive.tap.observeNext { [weak self] in
             guard let self = self else { return }
-            self.navigator?.presentAuthNavigation()
+//            self.navigator?.presentAuthNavigation()
+            
+            let controller = AuthViewController()
+            let navController = UINavigationController(rootViewController: controller)
+            self.present(navController, animated: true)
         }.dispose(in: bag)
         
         button3.reactive.tap.observeNext { [weak self] in
             guard let self = self else { return }
-            self.navigator?.presentFirstClassicSheet()
+//            self.navigator?.presentFirstClassicSheet()
+            
+            let controller = ClassicSheetFirstViewController()
+            self.present(controller, animated: true)
         }.dispose(in: bag)
     }
     
